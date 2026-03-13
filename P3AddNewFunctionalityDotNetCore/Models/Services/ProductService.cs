@@ -121,12 +121,12 @@ namespace P3AddNewFunctionalityDotNetCore.Models.Services
 
             if (!int.TryParse(product.Stock, out int qt))
             {
-                modelErrors.Add(_localizer["StockNotAnInteger"]);
+                modelErrors.Add(_localizer["QuantityNotAnInteger"]);
             }
             else
             {
                 if (qt <= 0)
-                    modelErrors.Add(_localizer["StockNotGreaterThanZero"]);
+                    modelErrors.Add(_localizer["QuantityNotGreaterThanZero"]);
             }
 
             return modelErrors;
