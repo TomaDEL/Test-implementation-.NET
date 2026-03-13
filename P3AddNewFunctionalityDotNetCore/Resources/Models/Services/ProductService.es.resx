@@ -123,19 +123,19 @@
   <data name="MissingPrice" xml:space="preserve">
     <value>Introduzca un precio</value>
   </data>
-  <data name="MissingStock" xml:space="preserve">
-    <value>Introduzca un valor de stock</value>
-  </data>
-  <data name="PriceNotANumber" xml:space="preserve">
+	<data name="PriceNotANumber" xml:space="preserve">
     <value>El valor introducido para el precio debe ser un número</value>
-  </data>
-  <data name="PriceNotGreaterThanZero" xml:space="preserve">
-    <value>El precio debe ser superior a cero</value>
-  </data>
-  <data name="StockNotAnInteger" xml:space="preserve">
-    <value>El valor introducido para la acción debe ser un entero</value>
-  </data>
-  <data name="StockNotGreaterThanZero" xml:space="preserve">
-    <value>La acción debe ser mayor que cero</value>
-  </data>
+</data>
+	<data name="PriceNotGreaterThanZero" xml:space="preserve">
+    <value>El precio debe ser un número mayor que cero</value>
+</data>
+	<data name="MissingQuantity" xml:space="preserve">
+    <value>Introduce un stock</value>
+</data>
+	<data name="QuantityNotAnInteger" xml:space="preserve">
+    <value>El valor introducido para el stock debe ser un número entero</value>
+</data>
+	<data name="QuantityNotGreaterThanZero" xml:space="preserve">
+    <value>El stock debe ser un número superior a cero.</value>
+</data>
 </root>
